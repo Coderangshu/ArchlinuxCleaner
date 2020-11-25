@@ -1,7 +1,0 @@
-stages:
-  cleanWorkspace1:
-    cmd: sudo pacman -Scc
-  cleanWorkspace2:
-    cmd: rm -rf ~/.cache/*
-  cleanWorkspace3:
-    cmd: sudo pacman -Rnsc $(pacman -Qtdq)
