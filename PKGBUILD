@@ -1,6 +1,6 @@
 # Maintainer: Your Name <your.email@example.com>
 pkgname=cleanarch
-pkgver=0.0
+pkgver=0.0.1
 pkgrel=1
 pkgdesc="Clean your Arch Linux system by removing unnecessary packages and cache."
 arch=('any')
