@@ -7,7 +7,7 @@ arch=('any')
 url="https://github.com/Coderangshu/$pkgname"
 license=('MIT')
 depends=('bash')
-source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
+source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/$pkgver.tar.gz")
 sha256sums=('SKIP')
 
 package() {
